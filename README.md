@@ -1,2 +1,4 @@
-# proj.terapia
-terapia de reprocessamento generativo
+# proj.terapia!
+Terapia de Reprocessamento Generativo.
+
+Repositório criado em uma reunião!
