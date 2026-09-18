@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Brincadeira</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 100px;
+            background-color: #f0f8ff;
+        }
+        button {
+            padding: 15px 25px;
+            font-size: 18px;
+            cursor: pointer;
+            border: none;
+            border-radius: 8px;
+            background-color: #007acc;
+            color: white;
+        }
+        button:hover {
+            background-color: #005999;
+        }
+        #mensagem {
+            margin-top: 20px;
+            font-size: 24px;
+            font-weight: bold;
+            color: #2e7d32;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Qual é o segredo do programador? 🤫</h1>
+    <button onclick="revelarSegredo()">Clique para descobrir!</button>
+
+    <p id="mensagem"></p>
+
+    <script>
+        function revelarSegredo() {
+            document.getElementById("mensagem").innerText = "☕ O código só funciona depois do primeiro café!";
+        }
+    </script>
+
+</body>
+</html>
